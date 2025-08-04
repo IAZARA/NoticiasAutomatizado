@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+.env.local
+.env.*.local
+
+# API Keys and sensitive data
+**/api_keys.txt
+**/credentials.json
+**/secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Output files
+drug_intelligence_report_*.csv
+news_results_*.json
+news_results.json
+
+# Model files
+*.pkl
+*.h5
+*.model
+*.pth
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# WebAgent specific
+WebAgent/WebDancer/.env
+WebAgent/WebSailor/
+WebAgent/WebShaper/
+WebAgent/WebWalker/
+WebAgent/assets/
+WebAgent/LICENSE
+
+# Keep only essential files
+!WebAgent/WebDancer/drug_intelligence_agent.py
+!WebAgent/WebDancer/run_drug_intelligence.py
+!WebAgent/WebDancer/README_Sistema_Inteligencia_Drogas.md
+!WebAgent/WebDancer/requirements_extended.txt
+!AnalisisArchivo/*.csv
