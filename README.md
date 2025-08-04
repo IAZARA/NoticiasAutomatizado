@@ -41,17 +41,23 @@ python run_drug_intelligence.py
 
 ```
 NoticiasAutomatizado/
-├── Sistema_Inteligencia_Drogas/       # Sistema principal
+├── Sistema_Inteligencia_Drogas/       # Sistema de drogas personalizado
 │   ├── drug_intelligence_agent.py     # Motor de inteligencia
 │   ├── run_drug_intelligence.py       # Interfaz ejecutora
 │   ├── requirements.txt               # Dependencias
 │   ├── .env.example                   # Ejemplo de configuración
 │   └── README_Sistema_Inteligencia_Drogas.md  # Documentación completa
+├── WebAgent_Full/                     # Framework WebAgent completo
+│   ├── WebDancer/                     # Agente de búsqueda autónoma
+│   ├── WebSailor/                     # Agente de navegación web
+│   ├── WebShaper/                     # Síntesis de datos
+│   └── WebWalker/                     # Benchmark y evaluación
 ├── AnalisisArchivo/                   # Archivos de referencia
 │   ├── drogas palabras clave.csv     # 240+ keywords
 │   ├── paises.csv                    # 57 países objetivo
 │   ├── relevancia.csv                # Criterios clasificación
 │   └── Centro_Regional_2025 - Base.csv  # Formato salida
+├── API_KEYS_IMPORTANTE.txt           # Backup de API keys (NO SUBIR)
 └── README.md                          # Este archivo
 ```
 
@@ -63,7 +69,17 @@ NoticiasAutomatizado/
 
 ## 📚 Documentación
 
-Ver [README_Sistema_Inteligencia_Drogas.md](Sistema_Inteligencia_Drogas/README_Sistema_Inteligencia_Drogas.md) para documentación completa.
+### Sistema de Inteligencia de Drogas
+Ver [README_Sistema_Inteligencia_Drogas.md](Sistema_Inteligencia_Drogas/README_Sistema_Inteligencia_Drogas.md) para documentación completa del sistema personalizado.
+
+### Framework WebAgent Completo
+El repositorio incluye el framework WebAgent completo de Alibaba con:
+- **WebDancer**: Búsqueda autónoma y Deep Research
+- **WebSailor**: Navegación web avanzada 
+- **WebShaper**: Síntesis de datos con IA
+- **WebWalker**: Benchmarks y evaluación
+
+Consulta [WebAgent_Full/README.md](WebAgent_Full/README.md) para más detalles.
 
 ## 📊 Ejemplo de Salida
 

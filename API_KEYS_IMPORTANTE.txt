@@ -1,0 +1,19 @@
+# 🔑 API KEYS IMPORTANTES - GUARDAR EN LUGAR SEGURO
+
+## ESTAS SON TUS API KEYS ACTIVAS:
+
+GOOGLE_SEARCH_KEY=62e64506c444e7c97e23262c488189dbd57ec837
+JINA_API_KEY=jina_a0096d29cc794809bd3773371de63666ynqVN32nKBXBP7myswrz2GaVPJqJ
+DASHSCOPE_API_KEY=sk-87f0ae9bbfee4498b63b53b2134e0d31
+
+## INSTRUCCIONES:
+1. Guarda este archivo en un lugar seguro
+2. Después de clonar el repositorio, crea un archivo .env en Sistema_Inteligencia_Drogas/
+3. Copia estas claves al archivo .env
+4. NUNCA subas el archivo .env a GitHub
+
+## ARCHIVOS .env NECESARIOS:
+- Sistema_Inteligencia_Drogas/.env
+- WebAgent_Full/WebDancer/.env
+
+Copia estas 3 líneas en ambos archivos .env
